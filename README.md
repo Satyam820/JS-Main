@@ -1,2 +1,2 @@
 # JS-Main
-A ode repo for JS
+A code repo for JS
