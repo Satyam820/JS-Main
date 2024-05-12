@@ -35,7 +35,33 @@ const myFunction = function (){                    //Function ka return datatype
 }
 
 
-console.log(typeof myFunction);
+// console.log(typeof myFunction);
 
+// https://262.ecma-international.org/5.1/#sec-11.4.3
+
+// +++++++++++++++++++++++++++++++++++++++++   Memory   +++++++++++++++++++++++++++++++++++++++++++++++
+
+//Stack  (Primitive), Heap (Non-Primitive)
+
+
+let myYoutubename = "hiteshchaudhary.com"         //Copy image so it will not going to change
+
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {                                    //Reference means actual value
+    email: "user@goofle.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "hitesh@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
 
 
